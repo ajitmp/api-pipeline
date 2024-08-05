@@ -1,0 +1,18 @@
+[
+  {
+    "model": "todo.todo",
+    "pk": 1,
+    "fields": {
+      "task": "Exercise",
+      "completed": "False"
+    }
+  },
+  {
+    "model": "todo.todo",
+    "pk": 2,
+    "fields": {
+      "task": "Breakfast",
+      "completed": "True"
+    }
+  }
+]
