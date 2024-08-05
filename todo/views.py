@@ -6,6 +6,9 @@ from rest_framework.decorators import api_view
 from .serializers import ToDoSerializer
 from .models import ToDo
 
+#Adding filtering using filters
+from .filters import ToDoFilter
+
 
 
 @api_view(['GET', 'POST', 'DELETE'])
